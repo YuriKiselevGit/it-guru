@@ -1,0 +1,270 @@
+.title1 {
+	text-align: center;
+	color: #2d2d2d;
+	font-size: 18px;
+}
+.title2 {
+	text-align: center;
+    color: #d0d0d0;
+	font-size: 18px;
+}
+.title1_mob {
+	color: #2d2d2d;
+	display: none;
+}
+
+.top_logo {
+	width: 160px;
+	padding-top: 10px;
+}
+
+.foto {
+	padding-bottom: 30px;
+}
+
+.btn_po {
+	vertical-align: middle;
+    padding-top: 20%;
+    width: 100%;
+	text-align: center;
+}
+
+.box_mobile {
+	border: 1px solid #d4d3d3;
+	margin-bottom: 20px;
+}
+
+.box_app {
+	border-bottom: 1px solid #d4d3d3;
+	margin-bottom: 20px;
+}
+
+
+.nivo-directionNav a {
+    display:block;
+    width:28px;
+    height:30px;
+    background:url(/images/arrows.png) no-repeat;
+    text-indent:-9999px;
+    border:0;
+}
+
+.block_socnet_mob{
+	text-align: center;	
+	padding: 10px 15px;
+	background: #ccc;
+	margin-top: 50px;
+	display: none;	
+}
+
+
+.icon img {
+	width: 40%;
+}	
+.btn_develop {
+	background-color: #f9ea95;
+	font-size: 1.3em;
+	color: #000;
+	padding: 15px;
+}	
+
+a.nivo-nextNav {
+    background-position:-30px 0;
+}
+
+.border {
+	border: 1px solid #d4d3d3;
+}
+
+.program_title {
+	font-size: 21px;
+}
+
+.nav>li {
+	width: 155px;	
+	text-align: center;
+}
+
+.btn_prg {
+	background-color: #f9ea95;
+	font-size: 18px;
+	color: #000;
+	padding: 15px;
+}
+
+.box {
+	border: 1px solid #d4d3d3;
+    height: 250px;
+	margin: 15px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.box2 {
+	border: 1px solid #d4d3d3;
+    height: 250px;
+	margin: 15px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.top_menu {
+	width: 776px;
+	margin: 0 auto;
+}
+
+.box:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}	
+
+.icon {
+    height: 146px;
+	padding: 15px;
+	text-align: center;
+}
+
+.icon_top {
+    height: 146px;
+	padding: 15px;
+	text-align: center;
+}
+
+.icon_top_program{
+    height: 165px;
+	padding: 15px;
+	text-align: center;	
+	margin: 0 auto;
+	max-width: 220px;
+}
+
+.text_center {
+	text-align: center;
+}
+
+.text_gray {
+	color: #989898;
+}
+
+.callme:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.logotop{
+	width: 1140px;
+    padding: 0px 30px;
+    margin: 0 auto;
+}
+
+.no_paddin{}
+
+.soc_icon {width: 32px;margin-left: 8px;}
+
+.deviz{
+	padding: 0px 0px 0px 0px;font-size: 1em;color: #000000;margin: 7px 0px 7px 25px;
+}
+
+@media (max-width: 890px) {
+	.block_socnet_mob{display: block;}
+	.logocontainer{display: none;}
+}	
+
+@media (max-width: 770px) {
+.icon img {
+	width: 13%;	
+}	
+.box {
+	height: 150px;
+}	
+.icon  {
+	height: 100px
+}	
+	.title2{display: none;}	
+	.icon_top {text-align: left;display: inline-block;height: 50px;padding: 0px 7px 0px 0px;}	
+	.title1 {display: none;}
+	.title1_mob {display: inline;font-size: 18px;margin-left: 5px;}	
+	.logotop{padding: 0px 15px;margin: 0 auto;width: 100%;}	
+	.footer_mob{display: block;}
+	.soc_icon{width: 36px;margin-left: 10px;}
+	.deviz{margin: 7px 0px 17px 0px;font-size: 14px;}
+	.navbar-nav>li {float: left;width: 30%;}
+	.navbar-nav {width:100% !important;font-size: 14px;padding-left: 10px;}
+	.navbar-nav>li>a {padding: 0;line-height: 40px;}
+	.top_menu {width: 100% !important;}
+
+}
+
+@media(min-width:320px) and (max-width: 505px) {
+		.no_display{display: none;}
+		.dist{font-size:16px !important;}
+}
+
+@media(min-width:300px) and (max-width: 505px) {
+	.box {
+		border: 0px;
+		border-bottom: 1px solid #d4d3d3;
+		text-align: left;
+		margin: 0;
+		height: 50px;
+	}
+	.icon {
+		text-align: left;
+		float: left;
+		padding: 5px 0;
+		width: 50px;
+		height: auto;
+	}
+	.icon img {
+		width: 80%;	
+	}		
+	.no_paddin {
+		padding: 0;
+	}
+	.block_socnet_mob {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+	.top_menu {
+		width: 100% !important;
+		margin: 0 auto;
+		padding: 0;
+	}	
+	.top_menu>li {
+		width: 100% !important;
+	}
+	.btn_develop {	
+		font-size: 16px;
+	}
+	.title1_mob {
+		display: inline-block;
+		margin-top: 10px;
+	}
+	.top_logo {
+		width: 120px !important;
+	}
+	.btn_po {
+		vertical-align: middle;
+		padding-top: 6px;
+		text-align: center;
+		display: inline-block;
+		float: left;
+		width: 50%;
+		margin: 10px 0;
+	}
+	.box_mobile {
+		margin: 5px 5px 20px 5px;
+	}
+	TABLE {
+		font-size: 11px;
+	}
+	
+	.table .btn {
+		font-size: 10px;
+		display: none;
+	}
+.program_title {
+	font-size: 18px;
+}	
+}
+
