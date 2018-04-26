@@ -3,15 +3,14 @@
 	include ABSOLUTE__PATH__."/include/head.php";	
 ?>
 <body>
-
-  <style>
-	.mainmenu {
+	<style>
+		.mainmenu {
 		display: none;
-	}
-  </style>  
-  
-  <?include "include/header.php"?>
-      
+		}
+	</style>  
+	
+	<?include "include/header.php"?>
+	
 	<div id="menu-container" class="main_menu">
 		<div class="content homepage" id="menu-1">
 			<div class="container">
@@ -87,10 +86,7 @@
 				</div>			
 			</div>
 		</div>
-	</div>
-    
-	
+	</div>	
 	<?include ABSOLUTE__PATH__."/include/footer.php"?>
-
-  </body>
-</html>
+</body>
+</html>									
